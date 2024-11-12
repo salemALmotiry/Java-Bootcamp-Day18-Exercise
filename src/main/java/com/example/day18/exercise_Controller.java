@@ -19,12 +19,12 @@ public class exercise_Controller {
 
     @GetMapping("/check/status")
     public String status() {
-        return "“Everything OK";
+        return "Everything OK";
     }
 
     @GetMapping("/health")
     public String health() {
-        return "“Server health is up and running";
+        return "Server health is up and running";
     }
 
     @GetMapping("/names")
