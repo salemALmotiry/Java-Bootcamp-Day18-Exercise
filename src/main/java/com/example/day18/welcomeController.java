@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-public class exercise_Controller {
+public class welcomeController {
 
     @GetMapping("/name")
     public String name() {
